@@ -1,0 +1,16 @@
+/* td a i.fa-pen-to-square{
+    position: absolute;
+    right: 6px;
+}
+td a i.fa-trash{
+    position: absolute;
+    right: 30px;
+} */
+
+div#crossbtn{
+    position: absolute;
+    right: 30px;
+    top: 18px;
+    color:rgb(253, 50, 50);
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+     
+        
+                <div class="row">
+             
+                <div class="col-md-3">
+                    <div class="card my-5" style="width: 18rem">
+                    <div class="card-body">
+                    <h5 class="card-title">TODO List</h5>
+                    <div id="crossbtn"><i class="fa-solid fa-circle-xmark"></i></div>
+                    <form id="form_id">
+                    
+                  <!-- <label for="exampleInputEmail1" class="form-label">Ema</label> -->
+                  <label for="javascript">Title</label>
+                  <input  type="text"  class="form-control"  id="task" aria-describedby=""/><br>
+
+                  <label for="javascript">Description</label>
+                  <input  type="text"  class="form-control"  id="desc" aria-describedby=""/>
+                  <button type="submit" class="form-control btn btn-primary my-4">Submit</button>
+                </form>
+                </div>
+                </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <table class="table table-striped my-5">
+                        <thead>
+                          <tr>
+                            <th scope="col">Title</th>
+                            <th scope="col">Desc</th>
+                            <th scope="col">Actions</th>
+                          </tr>
+                        </thead>
+                        <tbody id="t_id"></tbody>
+                </table>
+                
+                </div>
+            </div>
+                
+              
+             
+            </div>
+          </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d9dcfca079.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    
+  </body>
+</html>
+
+<!-- <form action="" id="form_id">
+    <input type="text" id="task" placeholder="Enter your task">
+    <br><br>
+    <button type="submit" id="btn">Add</button>
+          <br><br>
+</form> -->
+
